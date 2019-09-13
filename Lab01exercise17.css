@@ -5,12 +5,34 @@ header, footer {
 nav {
   background-color: #728B96;
 }
-
+nav ul li {
+  list-style: none;
+  display: inline;
+  margin: 1em;
+}
+nav {
+  padding: 0.25em;
+}
+nav a {
+  padding: 0.25em;
+}
+  
 h1, h2, h3 {
  font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
 }
 body {
  font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+  
+a:link {
+  font-weight: bold;
+  color: #47B3D7;
+}
+a:visited {
+  color: #BB78FF;
+}
+a:hover {
+  background-color: #FFFF99;
 }
 
 #reviews {
